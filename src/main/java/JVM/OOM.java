@@ -14,7 +14,7 @@ public class OOM {
 		String str=null;
 			while(true) 
 			{
-			str += str + new Random().nextInt(88888888) + new Random().nextInt(999999999);
+				str += str + new Random().nextInt(88888888) + new Random().nextInt(999999999);
 			}
 
 }
